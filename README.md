@@ -26,7 +26,7 @@ Then You can finally use the directives to add either the analog clock or the di
 Both of these directives have some attributes to modify how the clock looks like
 
 #### The digital clock 
-By default the digital clock has only hours and minutes displayed and the colon in beteen them is used to reference the seconds passing by blinking.
+By default the digital clock has only hours and minutes displayed and the colon in between them is used to reference the seconds passing by blinking.
 
 If You want to also display the seconds as numbers, set the _seconds_ attribute true:
 ```html
