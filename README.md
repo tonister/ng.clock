@@ -53,3 +53,4 @@ Also You could turn the seconds hand on by setting the attribute _sec-hand_
 The seconds hand is turned on by either the parameter _sec-hand_ or by setting the color for the seconds hand with _sec-color_.
 
 
+__powered__ __by__ [3dtech](https://github.com/3dtech)
