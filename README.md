@@ -1,6 +1,6 @@
 # ng.clock
 ## AngularJS 1.X clock module with customisable circular analog and digital clock
-###Getting started
+### Getting started
 First You need to install the ng.clock module as a dependency for Your project via npm:
 <pre>npm i -s ng.clock</pre>
 
