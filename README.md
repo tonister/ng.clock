@@ -39,7 +39,7 @@ By default the analog clock has only hours and minutes hands visible and the def
 
 You can change the colors of each of the hands and the number dots separately with _hour-color_, _min-color_, _sec-color_ and _num-color_.
 ```html
-<analog-clock hour-color="blue" min-color="#aabbcc" sec-color="red" num-color=""green></analog-clock>
+<analog-clock hour-color="blue" min-color="#aabbcc" sec-color="red" num-color="green"></analog-clock>
 ```
 You could also change both main hands colors at the same time with _main-hands-color_.
 ```html
