@@ -1,0 +1,27 @@
+{
+  "name": "ng.clock",
+  "version": "0.1.0",
+  "description": "Clock module for customisable analog and digital clocks for use with AngularJS 1.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonister/ng.clock.git"
+  },
+  "keywords": [
+    "wayfinder",
+    "angularjs",
+    "clock"
+  ],
+  "author": "Tõnis Terasmaa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tonister/ng.clock/issues"
+  },
+  "homepage": "https://github.com/tonister/ng.clock#readme",
+  "dependencies": {
+    "angular": "^1.6.8"
+  }
+}

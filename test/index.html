@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<style type="text/css">
+		#dClock {
+			font-family: sans-serif;
+		}
+	</style>
+</head>
+<body>
+<!-- TODO:
+  * analog clock drawFace
+  * digital clock frame and background
+-->
+<div ng-app="testApp">
+	<analog-clock></analog-clock>
+	<digital-clock id="dClock"></digital-clock>
+</div>
+<script src="../node_modules/angular/angular.js"></script>
+<script src="../index.js"></script>
+<script type="text/javascript">
+	angular.module('testApp', ['wfangular.clock']);
+</script>
+</body>
+</html>
