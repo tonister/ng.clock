@@ -1,5 +1,5 @@
 # ng.clock
-## AngularJS 1.X clock module with customisable circular analogue and digital clock
+## AngularJS 1.X clock module with customisable circular analog and digital clock
 ###Getting started
 First You need to install the ng.clock module as a dependency for Your project via npm:
 <pre>npm i -s ng.clock</pre>
@@ -15,7 +15,7 @@ Third You need to simply add the ng.clock module as a dependency to Your app:
 angular.module('myApp', ['ng.clock'])
 ```
 
-Then You can finally use the directives to add either the analogue clock or the digital clock to Your project:
+Then You can finally use the directives to add either the analog clock or the digital clock to Your project:
 ```html
 <digital-clock></digital-clock>
 <!-- or -->
@@ -23,7 +23,7 @@ Then You can finally use the directives to add either the analogue clock or the 
 ```
 
 ### Customising
-Both of these directives have some attributes to modify them with to Your liking
+Both of these directives have some attributes to modify how the clock looks like
 
 #### The digital clock 
 By default the digital clock has only hours and minutes displayed and the colon in beteen them is used to reference the seconds passing by blinking.
@@ -34,8 +34,8 @@ If You want to also display the seconds as numbers, set the _seconds_ attribute 
 ```
 This will stop the colon blinking and instead will append the seconds to the end.
 
-#### The analogue clock
-By default the analogue clock has only hours and minutes hands visible and the default color for everything is black.
+#### The analog clock
+By default the analog clock has only hours and minutes hands visible and the default color for everything is black.
 
 You can change the colors of each of the hands and the number dots separately with _hour-color_, _min-color_, _sec-color_ and _num-color_.
 ```html
